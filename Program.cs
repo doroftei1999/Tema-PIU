@@ -42,4 +42,25 @@ namespace Tema
         public bool onGoing
         { get; set; }
     }
+
+    internal class show
+    {
+        public string name
+        { get; set; }
+
+        public string genre
+        { get; set; }
+
+        public int numberOfEpisodes
+        { get; set; }
+
+        public int numberOfSeasons
+        { get; set; }
+
+        public float review
+        { get; set; }
+
+        public bool onGoing
+        { get; set; }
+    }
 }
